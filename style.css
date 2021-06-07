@@ -5,11 +5,12 @@ body {
   margin: 0px;
   padding: 0px;
   background-image: url(hands-holding-heart-dark-background_23-2147596663.jpg);
-
+  height: 100%;
   background-position: center;
   background-color: black;
-  background-size: 100%;
-  background-position-y: -120px;
+  background-size: cover;
+  background-attachment: fixed;
+
   background-repeat: no-repeat;
 }
 .topic {
@@ -89,4 +90,50 @@ button {
   padding-top: 20px;
   align-items: center;
   justify-content: space-evenly;
+}
+.toggle {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle .bar {
+  height: 4px;
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .toggle {
+    display: flex;
+  }
+  .nav-links {
+    display: none;
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .nav-links {
+    text-align: center;
+  }
+  .nav-links li a {
+    padding: 0.8rem;
+  }
+  .quote {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
 }
