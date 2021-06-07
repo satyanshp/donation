@@ -29,6 +29,7 @@ body {
   border-radius: 10px;
   text-shadow: black 0 1px 5px;
   text-decoration: solid;
+  animation: text 1s 1;
 }
 h1 {
   text-transform: uppercase;
@@ -53,3 +54,15 @@ form script {
   align-items: center;
   margin: auto;
 }
+@keyframes text {
+  0% {
+    visibility: hidden;
+    transition: ease-in;
+  }
+  30% {
+    padding-top: 150px;
+    transition: ease-in;
+    visibility: hidden;
+  }
+}
+
