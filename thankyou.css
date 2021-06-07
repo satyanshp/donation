@@ -2,15 +2,21 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
   background-image: url(comrawpixel436753.jpg);
   background-color: rgba(17, 22, 20, 0.384);
   display: flex;
-  background-repeat: no-repeat;
+  height: 100%;
   background-position: center;
-  background-size: 100%;
-  background-position-y: -160px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-blend-mode: luminosity;
-  padding-top: 85px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .blk {
   margin: auto;
@@ -22,7 +28,7 @@ body {
   width: 600px;
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
-  background-position: center;
+  margin-top: 6%;
   text-shadow: black 0 1px 5px;
   text-decoration: solid;
   color: aliceblue;
