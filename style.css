@@ -114,7 +114,7 @@ button {
   background-color: aliceblue;
   border-radius: 10px;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1080px) {
   .toggle {
     display: flex;
   }
