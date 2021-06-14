@@ -209,13 +209,34 @@ footer {
     flex-direction: column;
     padding-top: 18px;
     padding-bottom: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
     text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sec2 div {
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .sec3 {
     flex-direction: column;
     padding-top: 18px;
     padding-bottom: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
     text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sec3 div {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -256,3 +277,4 @@ footer {
     visibility: hidden;
   }
 }
+
