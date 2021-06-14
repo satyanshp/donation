@@ -1,9 +1,9 @@
- {
+  {
   box-sizing: border-box;
 }
 body {
   position: relative;
-  background-image: url(comrawpixel436753.jpg);
+  background-image: url(../img/comrawpixel436753.jpg);
   background-color: rgba(17, 22, 20, 0.384);
   display: flex;
   height: 100%;
